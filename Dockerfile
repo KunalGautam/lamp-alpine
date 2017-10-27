@@ -1,4 +1,4 @@
-From alpine:3.5
+From alpine:latest
 MAINTAINER kunalgautam - https://github.com/KunalGautam
 
 # Timezone
@@ -37,8 +37,7 @@ RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /et
     php5-openssl \
     php5-dom \
     php5-xml \
-    php5-iconv \
-    php5-xdebug@community
+    php5-iconv 
 
 #RUN curl -sS https://getcomposer.org/installer | \
 #   php -- --install-dir=/usr/bin --filename=composer
