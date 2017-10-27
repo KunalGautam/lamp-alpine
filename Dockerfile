@@ -1,4 +1,4 @@
-From alpine:latest
+From alpine:3.5
 MAINTAINER kunalgautam - https://github.com/KunalGautam
 
 # Timezone
